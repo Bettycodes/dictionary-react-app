@@ -1,4 +1,42 @@
-.App-footer{
+
+.container{
+    background-color: #e4afb0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
     text-align: center;
-    margin: 30px 0;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+.App-footer{
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.Dictionary{
+margin: 30px auto;
+
+}
+
+.meaningContainer{
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 550px;
+    text-align: center;
+    background-color: #9a7787 ;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+.word{
+    text-transform: capitalize;
+    margin: 40px auto;
+    font-size: 30px;
 }

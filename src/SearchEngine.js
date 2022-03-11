@@ -25,9 +25,9 @@ function handeleWordChange(event){
 }
 
 return (
-   <div className="Dictionary">
-     <form onSubmit={search}> 
-      <input type="search" onChange=
+   <div className="Dictionary row">
+     <form className="col" onSubmit={search}> 
+      <input type="search" className="form-control" onChange=
       {handeleWordChange} />
      </form>
      <Definition definition={definition}/>

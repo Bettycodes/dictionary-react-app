@@ -2,10 +2,12 @@ import React from "react";
 
 export default function Meaning(props) {
     return (
-    <div className="Meaning">
-       <h3>{props.meaning.partofspeech}</h3>
-       {props.meaning.partofspeech.map(function(definition,index){
-       return(
+      <div className="meaningContainer px-4">
+        <div className="row gx-5">
+    <div className="Meaning col">
+       <h3>{props.meaning.partOfSpeech}</h3>
+       {props.meaning.definitions.map(function (definition, index) {
+         return(
            <div key={index}>
                 <p>
                   {definition.definition}
@@ -13,8 +15,10 @@ export default function Meaning(props) {
                   <em>{definition.example}</em>
                 </p>
             </div>
-        );
-      })}
+          );
+        })}
+    </div>
+    </div>
     </div>
   );
 }
