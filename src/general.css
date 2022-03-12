@@ -29,6 +29,8 @@ margin: 30px auto;
     max-width: 550px;
     text-align: center;
     background-color: #9a7787 ;
+    border: #644d57  soild 4px;
+    border-radius: 7px;
 }
 
 .search{
