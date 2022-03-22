@@ -1,44 +1,16 @@
-
-.container{
-    background-color: #e4afb0;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.title{
-    text-align: center;
+ section{
+    background-color: rgb(209, 203, 203);
     padding: 30px;
-    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    margin: 20px 0;
 }
 
+.Dictionary input{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 4px;
+    color: rgb(224, 77, 77);
+    border: 1px solid #ddd;
 
-.App-footer{
-    margin: 30px auto;
-    text-align: center;
-    position: relative;
-
-}
-
-.Dictionary{
-margin: 30px auto;
-
-}
-
-.meaningContainer{
-    margin: 20px auto;
-    padding: 10px;
-    max-width: 550px;
-    text-align: center;
-    background-color: #9a7787 ;
-    border: #644d57  soild 4px;
-    border-radius: 7px;
-}
-
-.search{
-    margin-bottom: 20px;
-}
-
-.word{
-    text-transform: capitalize;
-    margin: 40px auto;
-    font-size: 30px;
 }
