@@ -1,9 +1,51 @@
+ body {
+background: #030e4f;
+ }
+
+ a {
+color: #030e4f;
+
+ }
+
+ header{
+     margin: 30px 0;
+
+ }
+
+ footer {
+    text-align: center;
+    margin: 30px 0;
+    color: #f49f1c;
+
+ }
+
+ footer a {
+     color: #f49f1c;
+     text-decoration: none;
+     font-weight: 500;
+ }
+
+ footer a:hover {
+    color: #f49f1c;
+    text-decoration: none;
+    font-weight:900;
+}
+
+ h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f49f1c;
+ } 
+ 
+
  section{
-    background-color: rgb(209, 203, 203);
+    background-color: #f49f1c;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 900px;
 }
 
 .Dictionary input{
@@ -11,12 +53,83 @@
     border-radius: 6px;
     padding: 6px 4px;
     color: rgb(224, 77, 77);
-    border: 1px solid #ddd;
+    border: 1px solid #030e4f;
 
 }
+
+.hint{
+    font-size: 11px;
+    margin-top: 5px;
+
+}
+
+
+ h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+
+  }
+  
+.example {
+    color: #030e4f;
+    font-style: italic;
+    margin-top: 10px;
+
+  }
+
+
 
 img{
     border-radius: 4px;
     margin-bottom: 20px;
+
 }
 
+.Phonetic {
+  margin: 20px 0;
+}
+
+.Phonetic a {
+  border: 1px solid #030e4f;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: #030e4f;
+  color: #f49f1c;
+}
+
+.Photos img {
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+
+  .Results h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+.Phonetic .text {
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.Synonyms {
+    margin: 15px 0 0;
+    padding: 0;
+  }
+  
+  .Synonyms li {
+    font-size: 13px;
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 1;
+  }
